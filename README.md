@@ -10,11 +10,11 @@ The other focus of this course is assume no prior knowledge of vim.  While that 
 * In VSCode edit settings (cmd+, or ctrl+,) and search for "lineNumbers" then ensure the dropdown says "relative"
 * Fork this [repo](https://aka.ms/vimcrashcourse): `git clone git@github.com:engineersamuel/vim-crash-course.git`
 * For Advanced users follow these [instructions](./#advanced-users).
-* TBD: Put together a screencast of the power of vim.
+* For some demos of the power of vim see [Example usage](./#example-usage).
 
 ## The power of vim
 
-To see a little bit of the magic you can do with vim see this ![video](./media/vim_macros.mp4)
+To see a little bit of the magic you can do with vim see this [video](./media/vim_macros.mp4)
 
 ## How to quit vim
 
@@ -62,6 +62,9 @@ $ defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false      
 $ defaults write com.microsoft.VSCodeInsiders ApplePressAndHoldEnabled -bool false # For VS Code Insider
 ```
 
+#### Examples of vim usage
+
+![Macros](media/vim_macros.gif)
 
 #### VSCode Vim problems
 
