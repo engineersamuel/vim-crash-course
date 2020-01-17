@@ -64,7 +64,15 @@ $ defaults write com.microsoft.VSCodeInsiders ApplePressAndHoldEnabled -bool fal
 
 #### Examples of vim usage
 
+Two demo videos of using vim.  Note that the mouse was never touched in these screencasts.  I still maybe only consider myself a 7/10 in the vim master department, always room for improvement.
+
+Here is a screencast of extracting out dictionary keys to an enum.
+
 ![Macros](media/vim_macros.gif)
+
+And one of converting a React class to a function.
+
+![Class to Func](media/class_to_func.gif)
 
 #### VSCode Vim problems
 
