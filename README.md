@@ -64,7 +64,7 @@ $ defaults write com.microsoft.VSCodeInsiders ApplePressAndHoldEnabled -bool fal
 
 #### Examples of vim usage
 
-Two demo videos of using vim.  Note that the mouse was never touched in these screencasts.  I still maybe only consider myself a 7/10 in the vim master department, always room for improvement.
+Two demo videos of using vim.  Note that the mouse was never touched in these screencasts.  I still maybe only consider myself a 7.5/10 in the vim master department, always room for improvement.
 
 Here is a screencast of extracting out dictionary keys to an enum.
 
