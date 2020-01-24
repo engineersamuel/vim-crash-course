@@ -2,14 +2,14 @@
 
 This challenge is designed to get you used to using `f` and `F` to find a character within a line and also using search with `/<chars>` and `?<chars>`.
 
-### Commands
+#### Commands
 
-`f<char>` will jump forward to the given char, then you can cycle to the next matched char with `;`.
-`F<char>` will jump backward to the given char, then you can cycle to the previous matched char with `;`.
-`rb` will change the character under the cursor to `b`
-`/the` will find all occurrences of `the` looking forward, then you can press `n` to cycle to the next match or `shift+n` to go to the previous match.
-`?the` will find all occurrences of `the` looking backwards, then you can press `n` to cycle to the next match looking back, or `shift+n` to look at the previous match (which in this case is looking forward, confusing I know!)
-`:nohl` will stop highlighting.
+* `f<char>` will jump forward to the given char, then you can cycle to the next matched char with `;`.
+* `F<char>` will jump backward to the given char, then you can cycle to the previous matched char with `;`.
+* `rb` will change the character under the cursor to `b`
+* `/the` will find all occurrences of `the` looking forward, then you can press `n` to cycle to the next match or `shift+n` to go to the previous match.
+* `?the` will find all occurrences of `the` looking backwards, then you can press `n` to cycle to the next match looking back, or `shift+n` to look at the previous match (which in this case is looking forward, confusing I know!)
+* `:nohl` will stop highlighting.
 
 ## Challenge
 

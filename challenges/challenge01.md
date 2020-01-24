@@ -13,25 +13,30 @@ Here are the most commonly used motions:
 * `gg`: goes to the top of the page
 * `G`: (shift+g) goes to the bottom of the page
 * `zz`: centers the page
+* `$` will move to the end of a line
+* `0` will move to the beginning of a line
 
 These are all while in normal mode.  If you are in insert mode you'll have to either `ESC` or `ctrl+[` or `jj` or `ctrl+c` to escape to normal mode, then you can use the motion keys.
 
-### Beginner commands expected:
-`j` to move down, `k` to move up, `h` to move left, `l` to move right.
-`i` to enter insert mode to edit as you would normally expect in a text editor.
-`ESC` or `ctrl+[` or `jj` or `ctrl+c` to exit insert mode and enter normal mode.  I won't spell this out again, in further challenges I'll just specify to exit insert mode or enter normal mode.
-`u` in normal mode will undo the previous change.
+#### Beginner commands expected:
+* `j` to move down, `k` to move up, `h` to move left, `l` to move right.
+* `i` to enter insert mode to edit as you would normally expect in a text editor.
+* `ESC` or `ctrl+[` or `jj` or `ctrl+c` to exit insert mode and enter normal mode.  I won't spell this out again, in further challenges I'll just specify to exit insert mode or enter normal mode.
+* `u` in normal mode will undo the previous change.
 
 This challenge can be accomplished exclusively with the above commands.
 
-### Intermediate
+#### Intermediate
 
-`1j` will jump down one line, `2f` will jump down two lines and `2k` will jump up two lines.
-`$` to move to the end of the line.
-`w` to move in word boundaries.
-`r2` will replace the character under the cursor with 2.
+* `1j` will jump down one line, `2f` will jump down two lines and `2k` will jump up two lines.
+* `$` to move to the end of the line.
+* `w` to move forward to the next word.
+* `b` to move backward to the previous word.
+* `e` to move forward to the end of a word.
+* `ge` to move backword to the end of a word.
+* `r2` will replace the character under the cursor with 2.
 
-### Advanced
+#### Advanced
 
 In normal mode you can use `V` (shift+v) to enter visual mode to select a block of text.  Then you can `j` or `shift+]` to select the block of 0s.  Once selected you can type `:s/0/1/g` to replace 0s with 1s.
 

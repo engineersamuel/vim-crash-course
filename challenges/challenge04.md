@@ -2,17 +2,17 @@
 
 This challenge is designed to get you used to selecting motion and selection within brackets `{}[]()`.  You'll use this practically every single day when workin in code.
 
-### Beginner commands expected
+#### Beginner commands expected
 
-`di(` delete in `(` brackets.
-`%` will jump to the matching `{}[]()` bracket.
+* `di(` delete in `(` brackets.
+* `%` will jump to the matching `{}[]()` bracket.
 
 This challenge can be accomplished exclusively with some or more of the commands plus commands from previous challenges for editing.
 
-### Advanced
+#### Advanced
 
-`vt;"ya` If executed on one character will yank selection to the `a` buffer.
-`"aP` will paste buffer `a` in place.
+* `vl"ay` If executed will yank the character under the cursort to the `a` buffer.
+* `"aP` will paste buffer `a` in place.
 
 ## Challenge
 

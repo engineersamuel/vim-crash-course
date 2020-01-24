@@ -2,13 +2,12 @@
 
 Let's start with the most basic vim functionality.  Insert mode, and exiting insert mode.
 
-### Commands expected
+#### Commands expected
 
-`i` enters insert mode, then you can edit as you would normally in VSCode or any text editor.
-`ESC` or `ctrl+[` or `jj` or `ctrl+c` to exit insert mode and enter normal mode.
-`u` will undo what you just did in insert mode
-`ctrl+r` will redo what you just undid
-
+* `i` enters insert mode, then you can edit as you would normally in VSCode or any text editor.
+* `ESC` or `ctrl+[` or `jj` or `ctrl+c` to exit insert mode and enter normal mode.
+* `u` will undo what you just did in insert mode
+* `ctrl+r` will redo what you just undid
 
 ## Hello World!
 

@@ -2,21 +2,22 @@
 
 This challenge is designed to get you used to using visual mode, i.e. selecting lines or blocks and making changes.
 
-### Beginner commands expected
-`V` (shift+v) to select the current line under the cursor, then you can use motion controls to select more lines up or down.
-`ctrl+v` to select a vertical block of text under the cursor, then you can use motion controls to select more characters in the block vertically and horizontally.
-`x` will delete the characters currently selected in visual mode.
-`>>` in normal mode and visual mode to tab to the right one tab.
+#### Beginner commands expected
+* `V` (shift+v) to select the current line under the cursor, then you can use motion controls to select more lines up or down.
+* `ctrl+v` to select a vertical block of text under the cursor, then you can use motion controls to select more characters in the block vertically and horizontally.
+* `x` will delete the characters currently selected in visual mode.
+* `>>` in normal mode and visual mode to tab to the right one tab.
+* `<<` in normal mode and visual mode to tab to the left one tab.
 
 This challenge can be accomplished exclusively with the above commands plus commands from previous challenges for editing.
 
 Note that I left out one visual mode, character mode, which is just `v` but we don't need it here, but feel free to play with it.
 
-### Intermediate
+#### Intermediate
 
 n/a 
 
-### Advanced
+#### Advanced
 
 n/a though you could use macros to accomplish this faster, but that will be covered in a later challenge.
 
