@@ -48,19 +48,6 @@ The challenges are designed in an OpenHack style where each successive challenge
 * [Challenge 08 - Repeating commands](./challenges/challenge08.md)
 * [Challenge 09 - Macros](./challenges/challenge09.md)
 
-#### Hardcore Users
-
-For more advanced users, if you want a challenge while still doing the intro content do the following:
-* For Windows see:
-
-![image](./media/windows_disable_repeated_keys.png)
-
-* Mac, by default disables repeated keys, however if you have already re-enabled them do the following:
-```
-$ defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false         # For VS Code
-$ defaults write com.microsoft.VSCodeInsiders ApplePressAndHoldEnabled -bool false # For VS Code Insider
-```
-
 #### Examples of vim usage
 
 Two demo videos of using vim.  Note that the mouse was never touched in these screencasts.  I still maybe only consider myself a 7.5/10 in the vim mastery department, always room for improvement.
