@@ -18,7 +18,8 @@ Here are the most commonly used motions:
 
 These are all while in normal mode.  If you are in insert mode you'll have to either `ESC` or `ctrl+[` or `jj` (If you've configured that key combo, don't worry if you haven't, or just ask) or `ctrl+c` to escape to normal mode, then you can use the motion keys.
 
-#### Beginner commands expected:
+#### Commands:
+
 * `j` to move down, `k` to move up, `h` to move left, `l` to move right.
 * `i` to enter insert mode to edit as you would normally expect in a text editor.
 * `ESC` or `ctrl+[` or `jj` or `ctrl+c` to exit insert mode and enter normal mode.  I won't spell this out again, in further challenges I'll just specify to exit insert mode or enter normal mode.

@@ -4,7 +4,7 @@ Let's start with the most basic vim functionality:
 * insert mode: where you can edit text like you would in any text editor.
 * normal mode: where you can move around the screen.  You can do more than this, but let's keep it simple for now.
 
-#### Commands expected
+#### Commands
 
 * `i` enters insert mode, then you can edit as you would normally in VSCode or any text editor.
 * `ESC` or `ctrl+[` or `jj` or `ctrl+c` to exit insert mode and enter normal mode.

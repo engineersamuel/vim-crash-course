@@ -2,7 +2,7 @@
 
 This challenge is designed to get you used to moving around the screen and re-orienting your view.
 
-#### Beginner commands expected:
+#### Commands:
 * `ctrl+d` to scroll down one page
 * `ctrl+u` to scroll up one page
 
@@ -17,18 +17,16 @@ This challenge can be accomplished exclusively with the above commands plus comm
 
 #### Advanced
 
-* `/somewhere{ENTER}` will search the page for somewhere, then you can press `n` to cycle to the next occurrence.
+* `/somewhere{ENTER}` will search the page for somewhere, then you can press `n` to cycle to the next occurrence or `shift+n` to cycle to the previous occurrence.
 * `{count}j` will jump `count` downwards
-* `{count}u` will jump `count` upwards
-
-In normal mode you can use `V` (shift+v) to enter visual mode to select a block of text.  Then you can `j` or `shift+]` to select the block of 0s.  Once selected you can type `:s/0/1/g` to replace 0s with 1s.
+* `{count}k` will jump `count` upwards
 
 ## Challenge
 
 Here are the tasks to accomplish in this order:
 * At the very bottom of this document find `I'm at the somewhere on the page` and change `somewhere` to `bottom`
-* Then scroll to the middle and change `somewhere` to `middle`.
-* Then scroll back up right below these instructions and change `somewhere` to `top`.
+* Then navigate to the middle and change `somewhere` to `middle`.
+* Then navigate back up right below these instructions and change `somewhere` to `top`.
 
 ```
 I'm somewhere on the page
