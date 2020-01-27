@@ -1,22 +1,22 @@
 # Challenge 06 - Repeating previous commands
 
-Let's deal with the situation in which you want to repeat a previously run command
+Let's deal with the situation in which you want to repeat a previously run command.
 
 #### Commands
 
 * `.` repeats the last command run
 * `&` repeats the last substitution
-
 * `~` to toggle case
 * `:s/the//g`
+
+You could optionally use the following commands:
+
 * `gU` then a motion will uppercase
 * `gu` then motion to lower case
 
 Just to mention the one other one, but for macros (next challenge):
 
 * `@@` repeats the last run macro
-
-
 
 ## Challenge
 
@@ -30,7 +30,7 @@ Next remove `the` from the first sentense using find/replace on a single line, t
 > What the cat?
 > What the dog?
 
-Next delete all text in the `""` in the below keys. But only do it on the first key, and repeat the command for the rest
+Next delete all text in the `""` in the below keys. But only do it on the first key `"withA"`, then repeat the command for the rest.
 
 ```
 {
