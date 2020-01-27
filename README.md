@@ -34,7 +34,7 @@ Examples:
 
 ## Challenges
 
-The challenges are designed in an OpenHack style where each successive challenge builds on the previous ones.  Most each challenge has 
+The challenges are designed in an OpenHack style where each successive challenge builds on the previous ones.  The challenges have a list of commands that are required, and many times have addtiional intermediate and advanced commands that are optional.
 
 * [Challenge 00 - Hello World](./challenges/challenge00.md)
 * [Challenge 01 - Motion and editing](./challenges/challenge01.md)
