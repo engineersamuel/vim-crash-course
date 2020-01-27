@@ -2,21 +2,22 @@
 
 This challenge is designed to get you used to selecting motion and selection within brackets `{}[]()`.  You'll use this practically every single day when workin in code.
 
-#### Beginner commands expected
+#### Commands
 
-* `di(` delete in `(` brackets.
+* `di(` delete in `(` parenthesis.
 * `%` will jump to the matching `{}[]()` bracket.
 
 This challenge can be accomplished exclusively with some or more of the commands plus commands from previous challenges for editing.
 
 #### Advanced
 
-* `vl"ay` If executed will yank the character under the cursort to the `a` buffer.
+* `vi("ay` If executed will yank the selection between `()` to the `a` buffer.
 * `"aP` will paste buffer `a` in place.
+* `J` (shift+j) will bring the move and append the line below your cursor to the line your cursor is on.  This could be helpful for the very last input in this challenge.
 
 ## Challenge
 
-Practice selecting in `{}`, position the cursor over `{` then type `%` and optionally now type `y` to yank the selection into the buffer.
+Practice selecting in `{}`, position the cursor over `{`, type `v`, then type `%` and optionally now type `y` to yank the selection into the buffer.
 
 ```
 function printHello() {
