@@ -1,6 +1,6 @@
 # Challenge 06 - Macros
 
-Now let's get to some of the more advanced parts, the incredibly powerful macro.
+Now let's get to some of the more advanced parts, the incredibly powerful macro command.
 
 #### Commands
 
@@ -11,7 +11,6 @@ Now let's get to some of the more advanced parts, the incredibly powerful macro.
 If you choose `a` as your character then: `3@a` would run the macro three times.
 
 * `@@` would repeat the previously run macro on the current line.
-
 
 ## Challenge
 
@@ -44,7 +43,7 @@ const dictionary = {
     W: 23,
     X: 24,
     Y: 25,
-    Z: 26,
+    Z: 26
 }
 
 enum Letters {
@@ -54,7 +53,7 @@ enum Letters {
 
 Make the following modifications using exclusively macros, visual block mode, and yank:
 
-* `A: 1` should become `[Letters.A]: 1` ect..
-* The enums should contain `A = 'A'` ect..
+* `A: 1` should become `[Letters.A]: 1`...`[Letters.Z]: 26`.
+* The enums should contain `A = 'A'`...`Z = 'Z'`.
 
-Hint: See the gif at the bottom of the [README](../README.md) in this repo to see an example of the above transformations.
+Hint: See the gif at the bottom of the [README](../README.md#examples-of-vim-usage) in this repo to see an example of the above transformations.
