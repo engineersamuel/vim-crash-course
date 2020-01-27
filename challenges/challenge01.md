@@ -16,7 +16,7 @@ Here are the most commonly used motions:
 * `$` will move to the end of a line
 * `0` will move to the beginning of a line
 
-These are all while in normal mode.  If you are in insert mode you'll have to either `ESC` or `ctrl+[` or `jj` or `ctrl+c` to escape to normal mode, then you can use the motion keys.
+These are all while in normal mode.  If you are in insert mode you'll have to either `ESC` or `ctrl+[` or `jj` (If you've configured that key combo, don't worry if you haven't, or just ask) or `ctrl+c` to escape to normal mode, then you can use the motion keys.
 
 #### Beginner commands expected:
 * `j` to move down, `k` to move up, `h` to move left, `l` to move right.
@@ -45,22 +45,22 @@ If you want to play with `$` for changing the first 1 you could navigate to the 
 ## Change 0s to 1s
 
 ```
-      1
+      0
 
-1   1   1   1
+0   0   0   0
 
 
-1 1 1 1 1 1 1
+0 0 0 0 0 0 0
 
-1           1
+0           0
 
-      1
+      0
 ```
 
 ## Jump by paragraph
 
-Moving by paragraph is extremely common in development, it's one of the most common things I do, for example if you want to jump through each function, if there are two new lines between them, is very efficient.  Practice typeing `{` and `}` (shift+[ and shift+]) to move to the middle, bottom, middle and two, of the two below paragraphs.  This is all done in normal mode.
+Moving by paragraph is extremely common in development, it's one of the most common things I do, for example if you want to jump through each function, if there are two new lines between them, is very efficient.  Practice typeing `{` (shift+[) and `}` (shift+]) to move to the middle, bottom, middle and two, of the two below paragraphs.  This is all done in normal mode.
 
-"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 
-"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
