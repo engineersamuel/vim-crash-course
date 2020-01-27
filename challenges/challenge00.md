@@ -1,6 +1,8 @@
 # Challenge 00 - Hello World
 
-Let's start with the most basic vim functionality.  Insert mode, and exiting insert mode.
+Let's start with the most basic vim functionality: 
+* insert mode: where you can edit text like you would in any text editor.
+* normal mode: where you can move around the screen.  You can do more than this, but let's keep it simple for now.
 
 #### Commands expected
 
