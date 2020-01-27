@@ -34,7 +34,7 @@ Examples:
 
 ## Challenges
 
-The challenges are designed in an OpenHack style where each successive challenge builds on the previous ones.  The challenges have a list of commands that are required, and many times have addtiional intermediate and advanced commands that are optional.
+The challenges are designed in an OpenHack style where each successive challenge builds on the previous ones.  The challenges have a list of commands that are required, and many times have addtiional intermediate and advanced commands that are optional.  While you can click through and view each challenge in github, the repo is meant to be cloned and completed within VSCode.
 
 * [Challenge 00 - Hello World](./challenges/challenge00.md)
 * [Challenge 01 - Motion and editing](./challenges/challenge01.md)
