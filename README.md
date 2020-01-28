@@ -42,12 +42,13 @@ While you can click through and view each challenge in github, the repo is meant
 * [Challenge 01 - Motion and editing](./challenges/challenge01.md)
 * [Challenge 02 - Moving around the screen](./challenges/challenge02.md)
 * [Challenge 03 - Visual mode](./challenges/challenge03.md)
-* [Challenge 04 - Moving and Selecting in brackets](./challenges/challenge04.md)
-* [Challenge 05 - Find and Search](./challenges/challenge05.md)
-* [Challenge 06 - Find and Replace](./challenges/challenge06.md)
-* [Challenge 07 - Editing text](./challenges/challenge07.md)
-* [Challenge 08 - Repeating commands](./challenges/challenge08.md)
-* [Challenge 09 - Macros](./challenges/challenge09.md)
+* [Challenge 04 - Editing text](./challenges/challenge04.md)
+* [Challenge 05 - Moving and Selecting in brackets](./challenges/challenge05.md)
+* [Challenge 06 - Find and Search](./challenges/challenge06.md)
+* [Challenge 07 - Search and Replace](./challenges/challenge07.md)
+* [Challenge 08 - Registers](./challenges/challenge08.md)
+* [Challenge 09 - Repeating commands](./challenges/challenge09.md)
+* [Challenge 10 - Macros](./challenges/challenge10.md)
 
 #### Examples of vim usage
 

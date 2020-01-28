@@ -1,55 +1,71 @@
-# Challenge 05 - Find and Search
+# Challenge 05 - Moving and selecting within brackets
 
-This challenge is designed to get you used to using `f` and `F` to find a character within a line and also searching with `/<chars>` and `?<chars>`.
+This challenge is designed to get you used to selecting motion and selection within brackets `{}[]()`.
+You'll use this practically every single day when working in code.
 
 #### Commands
 
-The core search commands are `f`ind and un`t`il.
-* `f<char>` will jump forward to the given char, then you can cycle to the next matched char with `;`.
-* `F<char>` will jump backward to the given char, then you can cycle to the previous matched char with `;`.
-* `t<char>` will jump forward to just before the given char, then you can cycle to the next match with `;`.
-* `T<char>` will jump backward to just before the given char, then you can cycle to the previous match with `;`.
+* `di(` delete in `(` parenthesis.
+* `%` will jump to the matching `{}[]()` bracket.
 
-There's also more powerful search tools available.
-* `r<char>` will change the character under the cursor to `<char>`, i.e. `rb` will change the current character to a `b`.
-* `/the` will find all occurrences of `the` looking forward, then you can press `n` to cycle to the next match or `shift+n` to go to the previous match.
-This supports regex!
-* `?the` will find all occurrences of `the` looking backwards, then you can press `n` to cycle to the next match looking back, or `shift+n` to look at the previous match (which in this case is looking forward, confusing I know!)
-This supports regex, too!
-* `:nohl` will stop highlighting.
+This challenge can be accomplished exclusively with these commands plus commands from previous challenges for editing.
+
+#### Advanced
+
+* `vi("ay` If executed will yank the selection between `()` to the `a` buffer.
+* `"aP` will paste buffer `a` in place.
+* `J` (shift+j) will bring the move and append the line below your cursor to the line your cursor is on.
+This could be helpful for the very last input in this challenge.
 
 ## Challenge
 
-Jump to the character `a` and change it to `b`, then back to the character `B` and change it to `b`, then forward to `C` and change it to `b` then back to `D` and change it to `b`.
+Practice selecting in `{}`, position the cursor over `{`, type `v`, then type `%` and optionally now type `y` to yank the selection into the buffer.
 
-> BbbbDbbbbbabbbbbbbCbbb
+```
+function printHello() {
+    console.log(`Hello World!`);
+}
+```
 
-With the next sentence type `/bear` which will highlight all occurrences of `bear`.  Practice typing `n` and `shift+n` to move forward and backward for the matching `bear`.
+Optional output:
+```
+{
+    console.log(`Hello World!`);
+}
+```
 
-> The bear found a rough tree and the bear scratched its back.
+Now practice selecting within `()`, for example if you want to extract arguments from a function.
 
-A more practical example would be extracting out arguments into a separate type, the example is still just a toy example, but I've done this many times:
+```
+function concat(a: string, b: string, c: string) {
+    return a + b + c;
+}
+```
+
+Optional output: `a: string, b: string, c: string`
 
 Input:
 
 ```
-function sum(a: number, b: number): number {
+public int Sum(int y, int x) {
+    return y + x;
+}
+```
+
+Desired output:
+
+```
+public string Append(string a, string b) {
     return a + b;
 }
 ```
 
-Desired Output:
+Input:
 
 ```
-type Args = {
-    a: number;
-    b: number;
-}
-
-function sum(args: Args): number {
-    return args.a + args.b;
+function sum(x, y) {
+    return x + y;
 }
 ```
 
-Hints:
-* Consider moving the cursor to the function line, type `f(` then `vi(` to select within `(`.
+Desired output: `(x, y) => x + y;`

@@ -16,9 +16,12 @@ You can only enter other modes from normal mode!
 #### Commands
 
 * `i` enters insert mode, then you can edit almost as you would normally in VSCode or any text editor.
-* `ESC` or `ctrl+[` or `jj` or `ctrl+c` to exit insert mode and enter normal mode.
+* `ESC` or `ctrl+[` or `jj` [1] or `ctrl+c` to exit insert mode and enter normal mode.
 * `u` will undo what you just did in insert mode.
 * `ctrl+r` will redo what you just undid.
+
+[1] jj is a common mapping to escape.  It both forces you to not use repeated motion keys, which is a bad practice.
+It also keeps your fingers on the home row for escaping.  See the [Settings](#settings) section below for recommended settings.
 
 ## How to quit vim
 
@@ -43,3 +46,75 @@ Below this sentence, to the right of the `>` enter insert mode, type Hello World
 Now that the above reads `> Hello World!` and you are back in normal mode, type `u` to undo what you just did.
 The text should now read `>` as it originally did.
 Type `ctrl+r` and `> Hello World!` should reappear.
+
+## Settings
+
+These settings are highly recommended to add to your settings.json in VSCode.  
+Note that many of these settings are also highlighted in the [vscodevim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim) extension.
+
+```
+{
+    ...
+    "vim.easymotion": true,
+    "vim.sneak": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<leader>",
+                "d"
+            ],
+            "after": [
+                "d",
+                "d"
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "r"
+            ],
+            "commands": [
+                "editor.action.referenceSearch.trigger"
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "e"
+            ],
+            "commands": [
+                "editor.action.marker.nextInFiles"
+            ]
+        },
+        {
+            "before": [
+                "<C-n>"
+            ],
+            "commands": [
+                ":nohl"
+            ]
+        }
+    ],
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false
+    },
+    "vim.statusBarColorControl": false,
+    ...
+}
