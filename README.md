@@ -19,14 +19,6 @@ Since you will be modifying your fork in the challenges, it may be a good idea t
 
 To see a little bit of the magic you can do with vim see the [examples](#examples-of-vim-usage) below.
 
-## How to quit vim
-
-If you haven't seen [how-to-exit-vim](https://github.com/hakluke/how-to-exit-vim) take a look.
-I believe this site is more sarcastic humor than it is reality.
-
-How you exit vim? `:q`, how do you force exit? `:q!`, it's that simple.
-And in VSCode, you don't even need to do that, just `ctrl|cmd+w` or just close the editor tab.
-
 ## Understanding vim syntax
 
 If you want to decifer any vim syntax on the net, you need to know the grammar.
@@ -42,6 +34,8 @@ Examples:
 
 The challenges are designed in an OpenHack style where each successive challenge builds on the previous ones.
 The challenges have a list of commands that are required, and many times have addtiional intermediate and advanced commands that are optional.
+Remember, commands can only be run in normal mode.
+
 While you can click through and view each challenge in github, the repo is meant to be cloned and completed within VSCode.
 
 * [Challenge 00 - Hello World](./challenges/challenge00.md)

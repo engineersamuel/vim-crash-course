@@ -1,5 +1,7 @@
 # Challenge 02 - Moving around the screen
 
+Moving with `hjkl` works a little, but sometimse code you want to change is really far away.
+Don't reach for that mouse!
 This challenge is designed to get you used to moving around the screen and re-orienting your view.
 
 #### Commands:
@@ -23,8 +25,8 @@ This challenge can be accomplished exclusively with the above commands plus comm
 
 ## Challenge
 
-Here are the tasks to accomplish in this order:
-1. At the very bottom of this document find `I'm at the somewhere on the page` and change `somewhere` to `bottom`
+Here are the tasks to accomplish this in order:
+1. At the very bottom of this document find `I'm at the somewhere on the page` and change `somewhere` to `bottom`.
 2. Then navigate to the middle and change `somewhere` to `middle`.
 3. Then navigate back up right below these instructions and change `somewhere` to `top`.
 

@@ -5,18 +5,18 @@ Vim considers a word a block of text surrounded by a space or new line.
 
 #### Commands
 
-* `daw` delete a word and trailiing whitespace and stay in normal mode.
+* `daw` delete a word and trailing whitespace and stay in normal mode.
 * `ciw` delete current word and go into insert "mode".
 * `ci<CHAR>` deletes anything in wrapped in the current `<CHAR>` excluding the `<CHAR`>, which is restricted to: ``` {}''""[]()`` ```.
 
 These commands may be helpful but are not strictly necessary:
 
 * `di<CHAR>` deletes anything in wrapped in the current `<CHAR>` including the `<CHAR`>, which is restricted to: ``` {}''""[]()`` ```.
-I personally dont' use this much.
+I personally don't use this much.
 
 ## Challenge
 
-Delete every other word:
+Delete every other word.
 
 Input:
 
@@ -25,6 +25,7 @@ Input:
 Output:
 
 > dog over cat
+
 or
 > The jumped the
 

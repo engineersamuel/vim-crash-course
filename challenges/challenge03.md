@@ -1,5 +1,6 @@
 # Challenge 03 - Visual mode
 
+Back in [Challenge 0](challenge00.md), we started with normal mode and insert mode.
 This challenge is designed to get you used to using visual mode, i.e. selecting lines or blocks and making changes.
 
 #### Commands
