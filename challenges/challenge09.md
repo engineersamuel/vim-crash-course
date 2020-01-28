@@ -1,4 +1,4 @@
-# Challenge 06 - Macros
+# Challenge 09 - Macros
 
 Now let's get to some of the more advanced parts, the incredibly powerful macro command.
 

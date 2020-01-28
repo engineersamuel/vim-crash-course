@@ -1,7 +1,7 @@
 # Challenge 07 - Editing text
 
 This challenge involes editing text, specifically editing words.
-Vim considers a word a block of text surrounded by a space or new line, speaking simplistically.
+Vim considers a word a block of text surrounded by a space or new line.
 
 #### Commands
 
@@ -11,7 +11,8 @@ Vim considers a word a block of text surrounded by a space or new line, speaking
 
 These commands may be helpful but are not strictly necessary:
 
-* `di<CHAR>` deletes anything in wrapped in the current `<CHAR>` including the `<CHAR`>, which is restricted to: ``` {}''""[]()`` ```.  I personally dont' use this much
+* `di<CHAR>` deletes anything in wrapped in the current `<CHAR>` including the `<CHAR`>, which is restricted to: ``` {}''""[]()`` ```.
+I personally dont' use this much.
 
 ## Challenge
 
@@ -29,6 +30,8 @@ or
 
 
 Now let's take something in quotes and change it.
+
+Input:
 
 > The "dog" jumped over the 'cat' (but did not jump over the house)
 

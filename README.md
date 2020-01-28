@@ -17,14 +17,14 @@ Since you will be modifying your fork in the challenges, it may be a good idea t
 
 ## The power of vim
 
-To see a little bit of the magic you can do with vim see the [examples](#examples-of-vim-usage) below
+To see a little bit of the magic you can do with vim see the [examples](#examples-of-vim-usage) below.
 
 ## How to quit vim
 
 If you haven't seen [how-to-exit-vim](https://github.com/hakluke/how-to-exit-vim) take a look.
 I believe this site is more sarcastic humor than it is reality.
 
-How you exit vim? `:q`, how do you force exist? `:q!`, it's that simple.
+How you exit vim? `:q`, how do you force exit? `:q!`, it's that simple.
 And in VSCode, you don't even need to do that, just `ctrl|cmd+w` or just close the editor tab.
 
 ## Understanding vim syntax
@@ -71,4 +71,7 @@ And one of converting a React class to a function.
 
 #### VSCode Vim problems
 
-* Key latency and performance.  I've encountered instances where I can type significantly faster than VSCode can handle the input creating a very annoying situation where I have to continually `u` and retype what I want since my vim commands were lagging.  Many times restarting VSCode completely helps, or my computer.  From what I've read on the VSCode github issues section this is largely due to vim commands going through an emulation layer instead of being natively handled by the underlying vim package like how Sublime handles it.
+* Key latency and performance.
+I've encountered instances where I can type significantly faster than VSCode can handle the input creating a very annoying situation where I have to continually `u` and retype what I want since my vim commands were lagging.
+Many times restarting VSCode completely helps, or my computer.
+From what I've read on the VSCode github issues section this is largely due to vim commands going through an emulation layer instead of being natively handled by the underlying vim package like how Sublime handles it.

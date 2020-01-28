@@ -4,7 +4,7 @@ This challenge is designed to introduce you to find and replace within a single 
 
 #### Commands
 
-* `V` (shift+v) will enter into visual line mode
+* `V` (shift+v) will enter into visual line mode.
 * `:s/` is the syntax to start writing a regex find and replace, not that you want to end with `/g` most times to make it global for the selection.
 Example `:s/0/1/g` will ensure all 0s in a selection are replaced with 1s.
 Dropping the `/g` will cause the replace to be limited to the first occurrence.

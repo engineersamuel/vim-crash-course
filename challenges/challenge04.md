@@ -1,19 +1,21 @@
 # Challenge 04 - Moving and selecting within brackets
 
-This challenge is designed to get you used to selecting motion and selection within brackets `{}[]()`.  You'll use this practically every single day when workin in code.
+This challenge is designed to get you used to selecting motion and selection within brackets `{}[]()`.
+You'll use this practically every single day when working in code.
 
 #### Commands
 
 * `di(` delete in `(` parenthesis.
 * `%` will jump to the matching `{}[]()` bracket.
 
-This challenge can be accomplished exclusively with some or more of the commands plus commands from previous challenges for editing.
+This challenge can be accomplished exclusively with these commands plus commands from previous challenges for editing.
 
 #### Advanced
 
 * `vi("ay` If executed will yank the selection between `()` to the `a` buffer.
 * `"aP` will paste buffer `a` in place.
-* `J` (shift+j) will bring the move and append the line below your cursor to the line your cursor is on.  This could be helpful for the very last input in this challenge.
+* `J` (shift+j) will bring the move and append the line below your cursor to the line your cursor is on.
+This could be helpful for the very last input in this challenge.
 
 ## Challenge
 

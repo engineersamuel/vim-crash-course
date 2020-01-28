@@ -1,30 +1,33 @@
-# Challenge 06 - Repeating previous commands
+# Challenge 08 - Repeating previous commands
 
-Let's deal with the situation in which you want to repeat a previously run command.
+Let's repeat a previously run command.
 
 #### Commands
 
-* `.` repeats the last command run
-* `&` repeats the last substitution
-* `~` to toggle case
-* `:s/the//g`
+* `.` repeats the last command run.
+* `&` repeats the last substitution.
+* `~` to toggle case.
+* `:s/the//g` eliminates all instances of `the` on the current line.
 
 You could optionally use the following commands:
 
-* `gU` then a motion will uppercase
+* `gU` then motion will uppercase
 * `gu` then motion to lower case
+* `g~` then motion will toggle case
 
-Just to mention the one other one, but for macros (next challenge):
+Just to mention the one other one, but for [macros](challenge09.md) (next challenge):
 
 * `@@` repeats the last run macro
 
 ## Challenge
 
-Uppercase the beginning of each word, but strictly only uppercase the first word, repeat the command for every successive word.
+Uppercase the first letter of each word.
+Repeat the command for every successive word.
 
 > small mice large cats quickly chase slowly eat green cheese.
 
-Next remove `the` from the first sentense using find/replace on a single line, then remove them from the next three sentences by repeating the previous command.
+Next, remove `the` from the first sentence using find/replace on a single line.
+Remove them from the next three sentences by repeating the previous command.
 
 > What the mouse?
 > What the cat?
