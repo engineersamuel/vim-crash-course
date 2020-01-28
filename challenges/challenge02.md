@@ -1,5 +1,7 @@
 # Challenge 02 - Moving around the screen
 
+Moving with `hjkl` works a little, but sometimse code you want to change is really far away.
+Don't reach for that mouse!
 This challenge is designed to get you used to moving around the screen and re-orienting your view.
 
 #### Commands:
@@ -10,7 +12,7 @@ This challenge can be accomplished exclusively with the above commands plus comm
 
 #### Intermediate:
 * `G` (shift+g) to move to the bottom of the screen
-* `gg` to move to the top of the screen, though that really isn't necessariliy where you want to go
+* `gg` to move to the top of the screen, though that really isn't necessarily where you want to go
 * `zz` to center the screen where the cursor is
 * `A` (shift+a) will go the end of a line and go into insert mode
 * `I` (shift+i) will go to the beginning of a line and go into insert mode
@@ -23,10 +25,10 @@ This challenge can be accomplished exclusively with the above commands plus comm
 
 ## Challenge
 
-Here are the tasks to accomplish in this order:
-* At the very bottom of this document find `I'm at the somewhere on the page` and change `somewhere` to `bottom`
-* Then navigate to the middle and change `somewhere` to `middle`.
-* Then navigate back up right below these instructions and change `somewhere` to `top`.
+Here are the tasks to accomplish this in order:
+1. At the very bottom of this document find `I'm at the somewhere on the page` and change `somewhere` to `bottom`.
+2. Then navigate to the middle and change `somewhere` to `middle`.
+3. Then navigate back up right below these instructions and change `somewhere` to `top`.
 
 ```
 I'm somewhere on the page

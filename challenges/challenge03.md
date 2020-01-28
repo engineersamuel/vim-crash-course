@@ -1,5 +1,6 @@
 # Challenge 03 - Visual mode
 
+Back in [Challenge 0](challenge00.md), we started with normal mode and insert mode.
 This challenge is designed to get you used to using visual mode, i.e. selecting lines or blocks and making changes.
 
 #### Commands
@@ -12,7 +13,9 @@ This challenge is designed to get you used to using visual mode, i.e. selecting 
 
 This challenge can be accomplished exclusively with the above commands plus commands from previous challenges for editing.
 
-Note that I left out one visual mode, character mode, which is just `v` but we don't need it here, but feel free to play with it.
+Note that I left out one visual mode, character mode.
+Character mode is accessed with `v`, but we don't need it here.
+Feel free to play with it.
 
 #### Intermediate
 
@@ -20,15 +23,15 @@ n/a
 
 #### Advanced
 
-n/a though you could use macros to accomplish this faster, but that will be covered in a later challenge.
+Come back to this challenge and do it with [macros](challenge09.md)!
 
 ## Challenge
 
 Here are the tasks to accomplish in this order:
 
-* Select the `$` character for each of the 3 lines using `ctrl+v` and `j` and delete it with an `x`.
-* Select the three lines vith visual line mode `V` and type `>>`.
-* Treat each line as a json entry and append `: true`, like `withSugar: true`.
+1. Select the `$` character for each of the 3 lines using `ctrl+v` and `j` and delete it with an `x`.
+2. Select the three lines vith visual line mode `V` and type `>>`.
+3. Treat each line as a json entry and append `: true`, like `withSugar: true`.
 
 ```
 $withUser
