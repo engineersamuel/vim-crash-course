@@ -30,7 +30,8 @@ Next remove `the` from the first sentense using find/replace on a single line, t
 > What the cat?
 > What the dog?
 
-Next delete all text in the `""` in the below keys. But only do it on the first key `"withA"`, then repeat the command for the rest.
+Next delete all text in the `""` in the below keys.
+But only do it on the first key `"withA"`, then repeat the command for the rest.
 
 ```
 {

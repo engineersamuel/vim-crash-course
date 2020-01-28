@@ -1,6 +1,7 @@
 # Challenge 07 - Editing text
 
-This challenge involes editing text, specifically editing words.  Vim considers a word a block of text surrounded by a space or new line, speaking simplistically.
+This challenge involes editing text, specifically editing words.
+Vim considers a word a block of text surrounded by a space or new line, speaking simplistically.
 
 #### Commands
 
