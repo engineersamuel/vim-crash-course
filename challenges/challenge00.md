@@ -1,3 +1,5 @@
+[Prev](../README.md) - [Next](./challenge01.md)
+
 # Challenge 00 - Hello World
 
 While it's tempting to unlock everything that vim has to offer, let's start simple.
@@ -20,8 +22,10 @@ You can only enter other modes from normal mode!
 * `u` will undo what you just did in insert mode.
 * `ctrl+r` will redo what you just undid.
 
-[1] jj is a common mapping to escape.  It both forces you to not use repeated motion keys, which is a bad practice.
-It also keeps your fingers on the home row for escaping.  See the [Settings](#settings) section below for recommended settings.
+[1] jj is a common mapping to escape.
+It both forces you to not use repeated motion keys, which is a bad practice.
+It also keeps your fingers on the home row for escaping.
+See the [Settings](#settings) section below for recommended settings.
 
 ## How to quit vim
 
@@ -118,3 +122,6 @@ Note that many of these settings are also highlighted in the [vscodevim](https:/
     "vim.statusBarColorControl": false,
     ...
 }
+```
+
+[Prev](../README.md) - [Next](./challenge01.md)

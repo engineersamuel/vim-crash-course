@@ -1,3 +1,5 @@
+[Prev](./challenge03.md) - [Next](./challenge05.md)
+
 # Challenge 04 - Visual mode
 
 Back in [Challenge 0](challenge00.md), we started with normal mode and insert mode.
@@ -38,3 +40,5 @@ $withUser
 $withProfile
 $withOrder
 ```
+
+[Prev](./challenge03.md) - [Next](./challenge05.md)

@@ -1,3 +1,5 @@
+[Prev](./challenge08.md) - [Next](./challenge10.md)
+
 # Challenge 09 - Repeating previous commands
 
 Let's repeat a previously run command.
@@ -45,3 +47,5 @@ But only do it on the first key `"withA"`, then repeat the command for the rest.
     "withE": 5
 }
 ```
+
+[Prev](./challenge08.md) - [Next](./challenge10.md)

@@ -1,3 +1,5 @@
+[Prev](./challenge02.md) - [Next](./challenge04.md)
+
 # Challenge 03 - Editing text
 
 This challenge involes editing text, specifically editing words.
@@ -39,3 +41,5 @@ Input:
 Output:
 
 > The "cat" jumped over the 'dog' (and over the house)
+ 
+[Prev](./challenge02.md) - [Next](./challenge04.md)

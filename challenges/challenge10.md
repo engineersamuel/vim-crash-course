@@ -1,3 +1,5 @@
+[Prev](./challenge09.md)
+
 # Challenge 10 - Macros
 
 Now let's get to some of the more advanced parts, the incredibly powerful macro command.
@@ -57,3 +59,5 @@ Make the following modifications using exclusively macros, visual block mode, an
 * The enums should contain `A = 'A'`...`Z = 'Z'`.
 
 Hint: See the gif at the bottom of the [README](../README.md#examples-of-vim-usage) in this repo to see an example of the above transformations.
+
+[Prev](./challenge09.md)

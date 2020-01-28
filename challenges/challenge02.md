@@ -1,3 +1,5 @@
+[Prev](./challenge01.md) - [Next](./challenge03.md)
+
 # Challenge 02 - Moving around the screen
 
 Moving with `hjkl` works a little, but sometimse code you want to change is really far away.
@@ -127,3 +129,5 @@ I'm somewhere on the page
 
 I'm somewhere on the page
 ```
+
+[Prev](./challenge01.md) - [Next](./challenge03.md)

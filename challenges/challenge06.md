@@ -1,3 +1,5 @@
+[Prev](./challenge05.md) - [Next](./challenge07.md)
+
 # Challenge 06 - Find and Search
 
 This challenge is designed to get you used to using `f` and `F` to find a character within a line and also searching with `/<chars>` and `?<chars>`.
@@ -30,3 +32,5 @@ Jump to the character `a` and change it to `b`, then back to the character `B` a
 With the next sentence type `/bear` which will highlight all occurrences of `bear`.  Practice typing `n` and `shift+n` to move forward and backward for the matching `bear`.
 
 > The bear found a rough tree and the bear scratched its back.
+
+[Prev](./challenge05.md) - [Next](./challenge07.md)
