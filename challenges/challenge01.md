@@ -1,3 +1,5 @@
+[Prev](./challenge00.md) - [Next](./challenge02.md)
+
 # Challenge 01 - Motion and editing
 
 This challenge is designed to get you accustomed to motion controls in vim.
@@ -16,7 +18,7 @@ Here are the most commonly used motions:
 
 Note: Look familiar?
 Look at the right hand of the home row.
-; got left out ;,(
+";" got left out ;,(
 
 There are a lot of other powerful motions as well!
 * `ctrl+d`: page down
@@ -35,7 +37,7 @@ Moving around it with just `j` and `k` sucks.
 That's because they work on what your file thinks is the next line, not what _looks_ like the next line.
 
 If you have word wrap on, you can use `gj` or `gk` to "go" down or up visually.
-That paragraph is a breeze.
+Maneuvering that paragraph is a breeze.
 
 #### Commands:
 
@@ -91,3 +93,5 @@ This is all done in normal mode.
 > "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 
 > "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+
+[Prev](./challenge00.md) - [Next](./challenge02.md)

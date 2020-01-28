@@ -1,3 +1,5 @@
+[Prev](./challenge04.md) - [Next](./challenge06.md)
+
 # Challenge 05 - Moving and selecting within brackets
 
 This challenge is designed to get you used to selecting motion and selection within brackets `{}[]()`.
@@ -69,3 +71,5 @@ function sum(x, y) {
 ```
 
 Desired output: `(x, y) => x + y;`
+
+[Prev](./challenge04.md) - [Next](./challenge06.md)
