@@ -18,7 +18,7 @@ Here are the most commonly used motions:
 
 Note: Look familiar?
 Look at the right hand of the home row.
-; got left out ;,(
+";" got left out ;,(
 
 There are a lot of other powerful motions as well!
 * `ctrl+d`: page down
@@ -37,7 +37,7 @@ Moving around it with just `j` and `k` sucks.
 That's because they work on what your file thinks is the next line, not what _looks_ like the next line.
 
 If you have word wrap on, you can use `gj` or `gk` to "go" down or up visually.
-That paragraph is a breeze.
+Maneuvering that paragraph is a breeze.
 
 #### Commands:
 
