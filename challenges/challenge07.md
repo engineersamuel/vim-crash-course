@@ -37,6 +37,4 @@ Hint:
 
 * If you wanted to change 1s to 0s you could type the following while in normal mode: `:s/1/0/g`
 
-Here is another modification you can try, something that I've done frequently when converting a React class to a function:
-
 [Prev](./challenge06.md) - [Next](./challenge08.md)
