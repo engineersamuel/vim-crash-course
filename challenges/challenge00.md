@@ -90,6 +90,15 @@ Note that many of these settings are also highlighted in the [vscodevim](https:/
         {
             "before": [
                 "g",
+                "i"
+            ],
+            "commands": [
+                "editor.action.goToImplementation"
+            ]
+        },
+        {
+            "before": [
+                "g",
                 "r"
             ],
             "commands": [
