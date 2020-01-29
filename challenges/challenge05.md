@@ -49,16 +49,16 @@ Optional output: `a: string, b: string, c: string`
 Input:
 
 ```
-public int Sum(int y, int x) {
-    return y + x;
+public int Aggregate(int a, int b) {
+    return a + b;
 }
 ```
 
 Desired output:
 
 ```
-public string Append(string a, string b) {
-    return a + b;
+public string Sum(string x, string y) {
+    return x + y;
 }
 ```
 
