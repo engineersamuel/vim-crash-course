@@ -49,7 +49,7 @@ Optional output: `a: string, b: string, c: string`
 Input:
 
 ```
-public int Sum(int a, int b) {
+public int Aggregate(int a, int b) {
     return a + b;
 }
 ```
@@ -57,7 +57,7 @@ public int Sum(int a, int b) {
 Desired output:
 
 ```
-public string Append(string x, string y) {
+public string Sum(string x, string y) {
     return x + y;
 }
 ```
