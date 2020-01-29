@@ -51,7 +51,7 @@ This challenge can be accomplished exclusively with the above commands.
 
 #### Intermediate
 
-* `1j` will jump down one line, `2f` will jump down two lines and `2k` will jump up two lines.
+* `1j` will jump down one line, `2j` will jump down two lines and `2k` will jump up two lines.
 * `$` to move to the end of the line.
 * `w` to move forward to the next word.
 * `b` to move backward to the previous word.
