@@ -11,9 +11,9 @@ While I'm targetting a happy path for beginners, I do cover intermediate and adv
 
 * Install vim in VSCode: https://marketplace.visualstudio.com/items?itemName=vscodevim.vim
 * In VSCode edit settings (cmd+, or ctrl+,) and search for "lineNumbers" then ensure the dropdown says "relative"
-* Fork this [repo](https://aka.ms/vimcrashcourse): `git clone git@github.com:engineersamuel/vim-crash-course.git`
+* Clone the repo locally
 
-Since you will be modifying your fork in the challenges, it may be a good idea to have the master git repo open in a tab for reference, just in case you deviate a bit to far in your editing.
+Since you will be modifying your clone in the challenges, it may be a good idea to have the master git repo open in a tab for reference, just in case you deviate a bit to far in your editing.
 
 ## The power of vim
 
