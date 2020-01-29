@@ -8,8 +8,8 @@ This challenge is designed to get you used to using visual mode, i.e. selecting 
 #### Commands
 
 * `V` (shift+v) to select the current line under the cursor, then you can use motion controls to select more lines up or down.
-* `ctrl+v` to select a vertical block of text under the cursor, then you can use motion controls to select more characters in the block vertically and horizontally.
-* `x` will delete the character(s) currently under the cursor/selection in visual mode.
+* `ctrl+v` or `v` to select a vertical block of text under the cursor, then you can use motion controls to select more characters in the block vertically and horizontally.
+* `x` will cut the character(s) currently under the cursor/selection in visual mode. You can paste with `p`.
 * `>>` in normal mode and visual mode to tab to the right one tab.
 * `<<` in normal mode and visual mode to tab to the left one tab.
 
